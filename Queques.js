@@ -27,5 +27,7 @@ class queue{
     print(){
         return this.queue;
     }
-
+    
 }
+
+const queue =new queue();
