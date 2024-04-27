@@ -1,6 +1,6 @@
 import React from "react";
-import { useFetch } from "../hooks/useFetch";
-import useCounter from "../hooks/useCounter";
+import { useFetch } from "../hooksowo/useFetch";
+import useCounter from "../hooksowo/useCounter";
 
 function OmnitrixHook() {
   const { counter, increment } = useCounter();

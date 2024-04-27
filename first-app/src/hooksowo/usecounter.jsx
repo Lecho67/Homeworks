@@ -1,37 +1,23 @@
 import { useState } from 'react';
 
 function useCounter() {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(1);
 
-  const handleAdd = () => {
+  const increment = () => {
     setCounter(counter + 1);
   };
-  const handleSubtract = () => {
+  const substract = () => {
     setCounter(counter - 1);
   };
-  const handleReset = () => {
+  const reset = () => {
     setCounter(0);
-  };
-
-  const performOperation = (operation) => {
-    switch (operation) {
-      case 'Add':
-        handleAdd();
-        break;
-      case 'Subtract':
-        handleSubtract();
-        break;
-      case 'Reset':
-        handleReset();
-        break;
-      default:
-        break;
-    }
   };
 
   return {
     counter,
-    performOperation,
+    increment,
+    substract,
+    reset
   };
 }
 
