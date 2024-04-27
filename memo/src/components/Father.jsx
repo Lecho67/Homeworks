@@ -4,7 +4,7 @@ import { Son } from "./Son";
 import "../App.css" 
 
 function Father() {
-  const list = [2, 4, 6, 8, 10];
+  const list = [2, 4, 6, 8, 10,12,14,16,18,20];
   const [valor, setValor] = useState(0);
 
   const incrementFather = useCallback((num) => {
@@ -13,7 +13,7 @@ function Father() {
 
   return (
     <div>
-      <h1>Father</h1>
+      <h1>Father THE GOAT</h1>
       <p>Total: {valor}</p>
       <hr />
 
