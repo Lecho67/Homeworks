@@ -1,5 +1,6 @@
 import {useDispatch, useSelector} from 'react-redux'
 import { useState } from 'react';
+import { increment, decrement } from '../stores/counterSlice';
 
 export const Increment = () =>{
 
