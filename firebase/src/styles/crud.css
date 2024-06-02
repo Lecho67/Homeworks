@@ -1,0 +1,77 @@
+.crud-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .crud-container input[type='text'] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .crud-container button {
+    padding: 10px 20px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .crud-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .crud-container button:not(:disabled):hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .crud-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .crud-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .crud-container .buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .crud-container .buttons button {
+    padding: 5px 10px;
+  }
+  
+  .crud-container .buttons button:first-child {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .crud-container .buttons button:last-child {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .crud-container span {
+    color: #666;
+    font-size: 14px;
+  }
+  

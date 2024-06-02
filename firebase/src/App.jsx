@@ -1,10 +1,11 @@
+
 import './App.css';
-import { Upload } from './components/Upload';
+import { Crud } from './crud';
 
 function App() {
   return (
     <div className="App">
-      <Upload/>
+    <Crud/>
     </div>
   );
 }
